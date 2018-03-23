@@ -1,0 +1,185 @@
+<html>
+	<head>
+		<title>A Little About Reptiles </title>
+
+	
+		
+		<link type="text/css" rel="stylesheet" href="main.css">
+		
+		</link>
+		
+		<script>
+		 
+			
+			function answer(){
+			var radio = document.getElementsByName("Trivia");
+			var selection = false;
+			var message = "";
+
+			for( var i = 0; i < radio.length; i++) {
+			if(radio[i].value == "Yes" && radio[i].checked == true) {
+			selection = true;
+			} //end if statement
+		} //end for loop
+
+			if(selection == true) {
+			message = message + "<b><p style='color:green'>Way to go!</p></b>";
+			} else {
+			message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+				}
+			document.getElementById("clicker").innerHTML = message;
+
+			} //end function answer
+			function answer2(){
+			var radio = document.getElementsByName("Trivia2");
+			var selection = false;
+			var message = "";
+
+			for( var i = 0; i < radio.length; i++) {
+			if(radio[i].value == "Yes" && radio[i].checked == true) {
+			selection = true;
+			} //end if statement
+		} //end for loop
+
+			if(selection == true) {
+			message = message + "<b><p style='color:green'>Way to go!</p></b>";
+			} else {
+			message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+				}
+			document.getElementById("clicker2").innerHTML = message;
+
+			} //end function answer
+		</script>
+	</head>
+	<body id="B">
+	
+		<header>
+		Reptiles
+		</header>
+		
+		<nav>
+			<ul id="navmenu">
+				<li class = "navitem">
+					<u>
+						<a src="games.html">
+							Games
+						</a>
+					</u>
+				</li >
+				
+				<li class = "navitem">
+					<u>
+						<a src="news.html">
+							News
+						</a >
+					</u>	
+				</li>
+				
+				<li class = "navitem">
+					<u>
+						<a src="aboutDev.html">
+							About The Developer
+						</a>
+					</u>
+				</li>
+			<ul>
+		
+		</nav>
+
+		
+		<div id="rightside">
+			<p class="p1"> <strong>Reptiles</strong> are very cool. They come in many sizes and <u>shapes</u>. All reptiles have <i>scales</i> and are cold blooded</p>
+			<span class = "LiRepSpan">
+				<h5> A list of the classes of reptiles below</h5>
+			</span>
+			<div class="listDiv">
+			<ol>
+		
+				<li class="list"> Crocodilians </li>
+				<li class="list"> Squamates </li>
+				<li class="list"> Chelonians </li>
+				<li class="list"> Tuatara</li>
+		
+	
+			
+	
+			</ol>
+			</div>
+			<center>
+				<iframe id="vid1" width="560" height="315" src="https://www.youtube.com/embed/wVd6dZXLR2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+				</iframe>
+			</center>
+			
+			<div class = "trivDiv">
+		
+				<h2>Crocodilian Trivia Question</h2>
+	
+				<p>Do Crocodilians Care For There Young</p>	
+
+	
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3XquorlRXAt8dABOnR_Xa-br7-YbvzOZuQw_IDneZlIyNqrk_TQ"></img>
+	
+				<form> 
+					<div id="clicker">
+					</div>
+					<input type="radio" name = "Trivia" value="Yes">True</input> <br>
+					<input type="radio" name = "Trivia" value="No">False</input> <br>
+	
+					<input id = "b1" type="button" value = "Submit" onclick="answer()"></input>
+					
+				</form>
+	
+				<h2>Squamate Trivia Question</h2>
+				<p>Can Chamelons Camoflauge There Selves</p>
+	
+		
+				<img src="data:image/jpeg;base64,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"></img>
+				<form> 
+					<div id="clicker2">
+					</div>
+					<input type="radio" name = "Trivia2" value="No">False</input> <br>
+					<input type="radio" name = "Trivia2" value="Yes">True</input> <br>
+					<input id="b2" type="button" value = "Submit" onclick="answer2()"></input>
+				</form>
+			</div>
+		
+		</div>
+		
+		
+		<div id="leftside">
+			<p id="mainP">Reptiles are an amazing group of creatures. There is much to learn about reptiles. It is interesting to learn what a reptile is, different types of reptiles, the lifestyle of reptiles, and prehistoric reptiles.
+							A reptile is a creature with the following characteristics: Reptiles ancestors were amphibians (3). The prehistoric amphibians, over time, split into two species of amphibians and reptiles (3). Reptiles come in many sizes (3). All reptiles are cold blooded meaning they don’t produce body heat (3). All reptiles also have scales or scutes on their body to keep moist (3).Reptiles are all vertebrates and the females lay eggs (3).
+							There are four classes of reptiles (3). The first is the Chelonians (3). chelonians consist of turtles and tortoises (3). Chelonians are the only class of reptile with a shell that is part of their body (3). Turtles and tortoises have little sharp teeth to chew there food (2). There are freshwater turtles and Sea turtles (3). The second class of reptiles are the crocodilians (2). The crocodilians consist of crocodiles, alligators, and gharial (2). A crocodilian usually feeds on fish and mammals (2). Crocodilians carry their young in their mouth (2). Crocodilians have long tales, big bodies, big jaws, and very sharp teeth (2). They swim in water but they are able to crawl on land (3). The third class of reptile is a tuatara or Rhynchocephalians (3). Tuataras are very rare and can only be found on thirty tropical islands including New Zealand (3). These creatures are the closest relatives to Dinosaurs (3). They are very small and the males have spines on their backs (3). The final class of reptiles are Squamates (2). Squamates consist of lizards and snakes (3).Lizards have long tongues, teeth, and long tales (1). Snakes have no legs, no arms, big teeth, and long bodies (2).
+							The lives of reptiles are very interesting. When a crocodilian is born they are usually born in holes in the ground (2). These holes were dug by the mother of the offspring (2). Alligators and crocodiles are the only reptiles that care for their young (2). The mother alligator carries her young in her mouth (2). The mother usually puts her young in a pool of water and feeds them until they mature (2). The matured alligator starts the process again by finding food and breeding (2). Tuatara live in burrows underground (3). They come out at night to feed on big bugs, bird eggs, and small birds (3). They have sharp teeth to grind prey (3). The female does not take care of her young (3). Tortoises live for very long (2). They have long necks to reach vegetation off the ground (3). Tortoises live in dry environments and lay their eggs in holes (3). Sea turtles lay their eggs in the sand at a beach (2). When the sea turtles are born they have to run to the water before they are eaten by predators (3). The sea turtles use their flippers to swim and their teeth to grind fish and seaweed (3). Snakes can be very poisonous (1). Some snakes have fangs with poison in them to kill prey (3). Snakes use their lengthy bodies to slither and move (3). Snakes can shed dead skin (3).  Some snakes can dislocate there jaw and eat big animals like cows (3). Lizards like chameleons and Comododragons eat meat (1). The chameleon can make himself turn any color to hide from predators (1). The Comododragon can kill big animals by biting their feet (1). The bacteria from the reptile kills the animal and the Comododragon eats the animal (1). Lizards lay their eggs on mounds they build for nests (1).
+							Prehistoric reptiles are very different from today’s reptiles. Dinosaurs were prehistoric reptiles (2). Most reptiles back then were larger (2). Dinosaurs soon split into three classes of reptiles, birds, and mammals (2). The Thrinaxodon is a mammal they found a fossil of that looks like a reptile and a mammal (2). An Archaeopteryx is a bird-reptile found in fossils (2).
+							Reptiles are very amazing creatures. Reptiles come in all shapes, colors, and sizes. It is very enjoyable and neat to learn about all the different types of reptiles. Reptiles are very interesting. </p>
+			</p>
+			
+			</p id="Bib" > Bibliography <br>
+			1.	Bishop, Nic. Lizards. Singapore. Wright Group Publishing, Inc., 2010<br>
+			2.	Parker, Steve. See Through Reptiles. Philadelphia, Pennsylvania. Ilex Press, 2004.<br>
+			3.	The Nature Company. Reptiles. Sydney. Weldon, Owen, Inc., 1996.<br>
+ </p>
+			
+			<img id="snakeimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-mYT20MkR1ULTHVVFYgvUgMeiBEJRAHNSUZ7HgdwNSg_8Tcy"></img>
+			
+		</div>
+	>
+		<center>
+			<audio width="400" height="220" controls autoplay>
+			<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+			Your browser does not support HTML 5 audio.
+			</audio>
+		</center>
+		
+		<hr>
+	
+		<center>
+			CoderOwl
+			<a id="favweblink" href="https://simplycoding.org/">The Creator Of The Page Favorite Website</a>
+		</center>
+	
+	
+		<footer>By CoderOwl</footer>
+	</body>
+</html>

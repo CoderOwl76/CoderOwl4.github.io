@@ -1,0 +1,182 @@
+	p {
+		color:green;
+		font-size:20px;
+
+		}
+		
+	#mainP {
+	color:#4e6012
+		
+	}
+		
+	.list {
+		color:blue;
+		font-size:40px;
+	
+	
+	
+	}
+	
+	.p1 {
+		color:cyan;
+	
+		font-size:30px;
+		
+	}
+	
+	#B {
+		
+		background-color:#30a55e;
+		
+	}
+	
+	#b2 {
+		width: 70;
+		height: 70;
+		color:  #60f79c;
+		background-color: blue;
+		border-radius: 30px;
+	
+		
+		
+	}
+	
+	#b1 {
+		width: 70;
+		height: 70;
+		color: blue;
+		background-color:  #60f79c;
+		border-radius: 30px	
+		
+	}
+	
+	header {
+		height:150px;
+		width:99%;
+		border: 10px solid black;
+		background-color: #60f79c;
+		font-size: 100px;
+		margin-bottom: 200px;
+		
+	}
+	
+	footer {
+		
+		height:150px;
+		width:99%;
+		border: 10px solid black;
+		background-color: #60f79c;
+		font-size: 100px;
+		
+	}
+	
+	.trivDiv {
+		width: 500px;
+		height: 900px;
+		border: 10px solid black;
+		padding: 130px;
+	
+
+		
+	}
+	
+	.listDiv {
+		width: 300px;
+		height: 300px;
+		border: 10px solid black;
+		
+	}
+	
+	.LiRepSpan {
+		font-size: 70px;
+		color: #1253bc;
+		
+		
+	}
+	
+	.navitem {
+		
+		list-style-type: none;
+		display: inline;
+		padding: 10px;
+		font-size: 30px;
+		
+	}
+	
+	#navmenu {
+		width: 700px;
+		height: 10px;
+		margin-bottom: 50px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: auto;
+		
+		
+	}
+	
+	
+	#b {
+		width: 2048px;
+		
+		
+		
+	}
+	
+	
+	#vid1 {
+		border: 10px solid black;
+		float: right;
+		position: relative;
+		bottom: 315px;
+	}
+	
+	#favweblink:link {
+		color:orange;
+		
+	}
+	
+	#favweblink:visited {
+		color:purple;
+		position: relative;
+		
+	}
+	
+	#favweblink:hover {
+		color:green;
+		
+	}
+	
+	#favweblink:active {
+		color:red;
+		
+	}
+	
+	#rightside {
+		float: right;
+		width: 50%;
+		background-color: #60f79c;
+		border: 10px solid black;
+		
+		
+		
+		
+	}
+	
+	#leftside {
+		width: 49%;
+		border: 5px solid black;
+		
+	}
+	
+	#snakeimage {
+	width: 99%;
+	height:99%;
+		
+		
+	}
+	
+	#Bib {
+	color: #60f79c;
+	font-size: 15px;
+	}
+	
